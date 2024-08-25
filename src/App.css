@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+/* .App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px
+} */
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #9eccf5;
+}
+
+.board {
+  width: 500px;
+  height: 500px;
+  background-color: #0b4477;
+  border: 1px solid #9eccf5;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 115px;
+}
+
+.row {
+  flex: 33%;
+  display: flex;
+  flex-direction: row;
+}
+
+.square {
+  flex: 33%;
+  height: 100%;
+  border: 1px solid #9eccf5;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-size: 40px;
+  color: #9eccf5;
+  font-family: "Electrolize", sans-serif;
+  
+}
+
+.square:active {
+  background-color: #1965aa;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-family: "Electrolize", sans-serif;
+  font-size: 80px;
+  margin-top: 20px;
+  color: #0b4477;
+}
